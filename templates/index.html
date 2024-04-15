@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #3AAFA9;
+        }
+        #heading{
+            color: white;
+            margin-top: -1vw;
+            margin-left: -1vw;
+            margin-right: -2vw;
+            padding: 1vw;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 5vw;
+            background-color: #17252A;
+        }
+        .container{
+            margin-top: 8vw;
+            text-align: center;
+        }
+        .form{
+            text-align: center;
+            font-size: 3vw;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        #button{
+            width: 14vw;
+            color: white;
+            font-size: 2vw;
+            margin: 2vw;
+            background-color: #17252A;
+            padding: 0.7vw;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        #button:hover{
+            background-color: #DEF2F1;
+            cursor: pointer;
+            color: black;
+            transition: 0.5s;
+        }
+        #button2{
+            width: 20vw;
+            color: white;
+            font-size: 2vw;
+            margin: 0.5vw;
+            background-color: #17252A;
+            padding: 0.7vw;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        #button2:hover{
+            background-color: #DEF2F1;
+            cursor: pointer;
+            color: black;
+            transition: 0.5s;
+        }
+        #input{
+            font-size: 1.5vw;
+            margin-left: 8vw;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">IT351 Mini Project</div>
+    <div class="container">
+    <form action="/upload" method="post" enctype="multipart/form-data" class="form">
+        Upload a PPT here <br><input type="file" name="file" id="input" multiple/><br>
+        <button id="button"> Submit</button>
+        <!-- <button id="button"><a href="index1.html"> Submit</a></button> -->
+    </form>
+      <!-- <button id="button2" >Display PPT
+          <a href="hello"></a>
+      </button> -->
+    <!-- <form method="get" action="display_ppt">
+        <button type="submit" id="button2">Continue</button>
+    </form> -->
+    </div>
+</body>
+</html>
